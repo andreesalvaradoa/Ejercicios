@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<!--Enlace de los archivos bootstrap-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<script type="text/javascript" lang="JavaScript" src="js/triangulo.js"></script>
+	</head>
+	<body>
+		<header class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-3">DAW</h1>
+				<p class="lead"> Area de un Triangulo</p>
+			</div>
+		</header>
+		<section class="container">
+			<form class="contact_form" action="#" id="contact_form" runat="server">
+				<h2>Ingrese los Datos</h2>
+				<div class="form_group">
+					<label for="name">Ingrese su Altura:</label>
+					<input  id="n1" class="form-control" type="text" required/>
+				</div>
+				<div class="form_group">
+					<label for="name">Ingrese su Base:</label>
+					<input id="n2" class="form-control" type="text" required/>
+				</div>
+				<br>
+				<input id="btncalcular" class="btn btn-success" type="button" value="Calcular">
+			</form>
+			<br>
+			<span id="resultado"></span>
+		</section>
+	</body>
+</html>
